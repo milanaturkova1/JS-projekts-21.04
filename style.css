@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(#770169, #c51bb1, #fe72ed);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.izvelne{
+    margin-top: 40px;
+}
+
+.izvelne a, .izvelne button{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25 px;
+    background: white;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.izvelne a:hover, .izvelne button:hover {
+    background: #333;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#taimeris {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#atgriezeniskais {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
